@@ -85,11 +85,11 @@ data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # ETL techniques and methods
-│   ├── data_architecture.drawio        # Overall data architecture diagram
+│   ├── architecture_dwh.drawio        # Overall data architecture diagram
 │   ├── data_catalog.md                 # Dataset catalog with field descriptions and metadata
 │   ├── data_flow.drawio                # Data flow diagram
-│   ├── data_models.drawio              # Star schema and data models
+│   ├── data_integration.drawio         # How tables are related in the system
+│   ├── star_schema.drawio              # Star Schema for the Gold layer
 │   ├── naming-conventions.md           # Naming standards for tables, columns, and files
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
@@ -99,10 +99,7 @@ data-warehouse-project/
 │
 ├── tests/                              # Data quality checks and test scripts
 │
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information
-├── .gitignore                          # Git ignored files and directories
-└── requirements.txt                    # Project requirements and dependencies
+└── README.md                           # Project overview and instructions
 ```
 ## Acknowledgments
 
